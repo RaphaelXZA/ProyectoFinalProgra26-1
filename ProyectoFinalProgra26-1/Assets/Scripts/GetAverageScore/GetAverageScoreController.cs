@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class GetAverageScoreController : MonoBehaviour
 {
-    private const string URL = "http://localhost/proyectoFinalProgra26_1/get_average_score.php";
+    private const string URL = "https://progra261chgrupo3.samidareno.com/get_average_score.php";
 
     public void Send(Action<AverageScoreResultData> callback)
     {

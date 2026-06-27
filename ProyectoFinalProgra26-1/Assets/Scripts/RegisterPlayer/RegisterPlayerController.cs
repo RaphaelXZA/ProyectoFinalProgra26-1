@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class RegisterPlayerController : MonoBehaviour
 {
-    private const string URL = "http://localhost/proyectoFinalProgra26_1/register_player.php";
+    private const string URL = "https://progra261chgrupo3.samidareno.com/register_player.php";
 
     public void Send(string playername, string email, string password, Action<string> callback)
     {

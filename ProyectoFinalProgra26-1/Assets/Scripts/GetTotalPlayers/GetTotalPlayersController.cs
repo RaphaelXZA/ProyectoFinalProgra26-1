@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class GetTotalPlayersController : MonoBehaviour
 {
-    private const string URL = "http://localhost/proyectoFinalProgra26_1/get_total_players.php";
+    private const string URL = "https://progra261chgrupo3.samidareno.com/get_total_players.php";
 
     public void Send(Action<TotalPlayersResultData> callback)
     {

@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class GetRankingController : MonoBehaviour
 {
-    private const string URL = "http://localhost/proyectoFinalProgra26_1/get_ranking.php";
+    private const string URL = "https://progra261chgrupo3.samidareno.com/get_ranking.php";
 
     public void Send(Action<PlayerResultData> callback)
     {
