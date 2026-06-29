@@ -261,8 +261,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1150288979}
-        m_TargetAssemblyTypeName: GetTotalScoreUI, Assembly-CSharp
+      - m_Target: {fileID: 737427109}
+        m_TargetAssemblyTypeName: GetRankingUI, Assembly-CSharp
         m_MethodName: Send
         m_Mode: 1
         m_Arguments:
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GetTotalScore.Send
+  m_text: GetRanking.Send
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
