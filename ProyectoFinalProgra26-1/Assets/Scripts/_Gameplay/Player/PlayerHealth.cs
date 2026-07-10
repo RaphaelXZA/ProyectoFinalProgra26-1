@@ -9,6 +9,11 @@ public class PlayerHealth : MonoBehaviour
     {
         health += amount;
 
+        if (health == 1 && amount < 0)
+        {
+            GetComponent<PowerUpInventory>().OnShieldLost();
+        }
+
         if (health <= 0)
         {
             Die();
@@ -27,6 +32,11 @@ public class PlayerHealth : MonoBehaviour
         {
             ChangeHealth(-1);
         }
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
 }

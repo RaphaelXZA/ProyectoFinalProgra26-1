@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float accelerationForce = 5f;
+    public float accelerationForce = 5f;
 
     private Rigidbody rb;
     [SerializeField] private float moveDirection = 0f;
