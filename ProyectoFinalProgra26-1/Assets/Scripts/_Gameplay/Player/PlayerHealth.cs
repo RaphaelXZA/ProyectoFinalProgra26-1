@@ -17,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
+        Object.FindFirstObjectByType<ScoreCounter>().SaveScore();
         SceneManager.LoadScene("GameOver");
     }
 
