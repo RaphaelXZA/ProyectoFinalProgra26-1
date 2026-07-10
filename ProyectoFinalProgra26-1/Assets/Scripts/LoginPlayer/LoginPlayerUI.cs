@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LoginPlayerUI : MonoBehaviour
@@ -8,11 +10,16 @@ public class LoginPlayerUI : MonoBehaviour
     [SerializeField] private TMP_InputField passwordInputField;
     [SerializeField] private TextMeshProUGUI resultText;
     [SerializeField] private Button button;
-    private LoginPlayerController controller;
+    [SerializeField] private GameObject registerPanel;
+    private LoginPlayerController loginController;
+    private GetItemsController itemsController;
+    private GetPlayerInventoryController inventoryController;
 
     private void Awake()
     {
-        controller = GetComponent<LoginPlayerController>();
+        loginController = GetComponent<LoginPlayerController>();
+        itemsController = GetComponent<GetItemsController>();
+        inventoryController = GetComponent<GetPlayerInventoryController>();
         button.onClick.AddListener(Send);
     }
 
@@ -21,10 +28,10 @@ public class LoginPlayerUI : MonoBehaviour
         string playername = playernameInputField.text;
         string password = passwordInputField.text;
 
-        controller.Send(playername, password, OnResult);
+        loginController.Send(playername, password, OnLoginResult);
     }
 
-    private void OnResult(string result)
+    private void OnLoginResult(string result)
     {
         if (result.StartsWith("{"))
         {
@@ -32,8 +39,14 @@ public class LoginPlayerUI : MonoBehaviour
 
             if (loginResult != null && loginResult.data != null)
             {
-                PlayerSessionManager.Instance.SetLoggedInPlayer(loginResult.data.player_id, loginResult.data.player_name, loginResult.data.player_highscore);
-                resultText.text = $"Sesión iniciada: {loginResult.data.player_name}! Highscore: {loginResult.data.player_highscore}";
+                PlayerSessionManager.Instance.SetLoggedInPlayer(
+                    loginResult.data.player_id,
+                    loginResult.data.player_name,
+                    loginResult.data.player_highscore
+                );
+
+                resultText.text = "Cargando datos...";
+                itemsController.Send(OnItemsResult);
             }
             else
             {
@@ -44,6 +57,37 @@ public class LoginPlayerUI : MonoBehaviour
         {
             resultText.text = result;
         }
+    }
+
+    private void OnItemsResult(ItemResultData result)
+    {
+        ItemPool.Instance.SetAvailableItems(result);
+        inventoryController.Send(PlayerSessionManager.Instance.PlayerId, OnInventoryResult);
+    }
+
+    private void OnInventoryResult(PlayerInventoryResultData result)
+    {
+        int portalUses = 0;
+        int shieldUses = 0;
+        int reducerUses = 0;
+
+        if (result != null && result.data != null)
+        {
+            foreach (PlayerInventoryData item in result.data)
+            {
+                if (item.item_id == 1) portalUses++;
+                else if (item.item_id == 2) shieldUses++;
+                else if (item.item_id == 3) reducerUses++;
+            }
+        }
+
+        GameManager.Instance.SavePowerUpUses(portalUses, shieldUses, reducerUses);
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void ToggleRegisterPanel()
+    {
+        registerPanel.SetActive(!registerPanel.activeSelf);
     }
 
 }

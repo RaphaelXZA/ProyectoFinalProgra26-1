@@ -22,6 +22,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
+        GameManager.Instance.ClearPowerUpUses();
+        GameManager.Instance.LastLevel = SceneManager.GetActiveScene().name;
         Object.FindFirstObjectByType<ScoreCounter>().SaveScore();
         SceneManager.LoadScene("GameOver");
     }

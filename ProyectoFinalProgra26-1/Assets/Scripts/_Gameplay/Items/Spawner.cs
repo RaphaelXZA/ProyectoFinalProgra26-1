@@ -5,10 +5,10 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> prefabs;
 
-    [Header("Cadencia")]
+    [Header("Spawn Rate")]
     [SerializeField] private float spawnInterval = 2f;
 
-    [Header("Modificador de cadencia")]
+    [Header("Spawn Rate Modifier")]
     [SerializeField] private bool modifyInterval = false;
     [SerializeField] private float intervalChangeTime = 10f;
     [SerializeField] private float intervalChangeAmount = -0.1f;
@@ -38,10 +38,34 @@ public class Spawner : MonoBehaviour
 
     private void Spawn()
     {
-        if (prefabs.Count == 0) return;
+        List<GameObject> available = GetAvailablePrefabs();
+        if (available.Count == 0) return;
 
-        int index = Random.Range(0, prefabs.Count);
-        Instantiate(prefabs[index], transform.position, Quaternion.identity);
+        int index = Random.Range(0, available.Count);
+        Instantiate(available[index], transform.position, Quaternion.identity);
+    }
+
+    private List<GameObject> GetAvailablePrefabs()
+    {
+        List<GameObject> available = new List<GameObject>();
+
+        foreach (GameObject prefab in prefabs)
+        {
+            PowerUpItem powerUp = prefab.GetComponent<PowerUpItem>();
+
+            if (powerUp == null)
+            {
+                available.Add(prefab);
+                continue;
+            }
+
+            if (ItemPool.Instance.AvailableItemIds.Contains(powerUp.powerUpId))
+            {
+                available.Add(prefab);
+            }
+        }
+
+        return available;
     }
 
     public void ModifyInterval(float amount)

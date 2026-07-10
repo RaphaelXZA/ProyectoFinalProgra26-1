@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ExtractionPortal : ObstacleBase
 {
@@ -9,8 +8,7 @@ public class ExtractionPortal : ObstacleBase
     {
         if (other.CompareTag("Player"))
         {
-            FindFirstObjectByType<ScoreCounter>().SaveScore();
-            SceneManager.LoadScene("GameExtracted");
+            other.GetComponent<PowerUpInventory>().SaveAndExtract();
         }
     }
 

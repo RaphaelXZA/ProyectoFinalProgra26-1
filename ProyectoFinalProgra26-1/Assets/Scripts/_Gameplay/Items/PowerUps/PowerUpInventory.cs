@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PowerUpInventory : MonoBehaviour
 {
-    [Header("Usos disponibles")]
+    [Header("Uses")]
     public int portalUses = 0;
     public int shieldUses = 0;
     public int reducerUses = 0;
@@ -29,6 +29,10 @@ public class PowerUpInventory : MonoBehaviour
         playerHealth = GetComponent<PlayerHealth>();
         playerController = GetComponent<PlayerController>();
         playerRenderer = GetComponent<Renderer>();
+
+        portalUses = GameManager.Instance.SavedPortalUses;
+        shieldUses = GameManager.Instance.SavedShieldUses;
+        reducerUses = GameManager.Instance.SavedReducerUses;
     }
 
     private void Update()
@@ -45,19 +49,32 @@ public class PowerUpInventory : MonoBehaviour
 
     public void AddPowerUp(int id)
     {
-        if (id == 1) portalUses++;
-        else if (id == 2) shieldUses++;
-        else if (id == 3) reducerUses++;
+        switch (id)
+        {
+            case 1:
+                portalUses++;
+                break;
+            case 2:
+                shieldUses++;
+                break;
+            case 3:
+                reducerUses++;
+                break;
+            default:
+                break;
+        }
     }
+
+    
     public void UsePortal() //ID 1
     {
         if (portalUses <= 0) return;
 
         portalUses--;
-        FindFirstObjectByType<ScoreCounter>().SaveScore();
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameExtracted");
+        SaveAndExtract();
     }
 
+    
     public void UseShield() //ID 2
     {
         if (shieldUses <= 0) return;
@@ -73,6 +90,7 @@ public class PowerUpInventory : MonoBehaviour
         playerRenderer.material = normalMaterial;
     }
 
+    
     public void UseReducer() //ID 3
     {
         if (reducerUses <= 0) return;
@@ -94,6 +112,13 @@ public class PowerUpInventory : MonoBehaviour
         reducerActive = false;
         transform.localScale = originalScale;
         playerController.accelerationForce = originalAcceleration;
+    }
+
+    public void SaveAndExtract()
+    {
+        GameManager.Instance.SavePowerUpUses(portalUses, shieldUses, reducerUses);
+        FindFirstObjectByType<ScoreCounter>().SaveScore();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameExtracted");
     }
 
 }

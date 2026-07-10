@@ -19,9 +19,17 @@ public class RegisterPlayerUI : MonoBehaviour
 
     private void Send()
     {
-        string playername = playernameInputField.text;
-        string email = emailInputField.text;
-        string password = passwordInputField.text;
+        string playername = playernameInputField.text.Trim();
+        string email = emailInputField.text.Trim();
+        string password = passwordInputField.text.Trim();
+
+        if (string.IsNullOrEmpty(playername) ||
+            string.IsNullOrEmpty(email) ||
+            string.IsNullOrEmpty(password))
+        {
+            resultText.text = "Todos los campos son obligatorios!!";
+            return;
+        }
 
         controller.Send(playername, email, password, OnResult);
     }
