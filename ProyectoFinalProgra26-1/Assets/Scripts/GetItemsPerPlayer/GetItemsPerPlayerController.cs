@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class GetItemsPerPlayerController : MonoBehaviour
 {
-    private const string URL = "http://localhost/proyectoFinalProgra26_1/get_items_perPlayer.php";
+    private const string URL = "https://progra261chgrupo3.samidareno.com/get_items_perPlayer.php";
 
     public void Send(Action<ItemsPerPlayerResultData> callback)
     {
