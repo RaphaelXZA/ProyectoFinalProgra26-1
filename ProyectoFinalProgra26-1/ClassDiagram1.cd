@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AddItemController" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AddItemToDatabase\AddItemController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddItemToPlayerController" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AddItemToPlayer\AddItemToPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddItemToPlayerUI" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAFAAAAAACIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\AddItemToPlayer\AddItemToPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddItemUI" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAgAEAAEAAAAAAAIAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\AddItemToDatabase\AddItemUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AverageScoreResultData" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetAverageScore\AverageScoreResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteItemController" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DeleteItem\DeleteItemController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteItemUI" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAEAAAAAACIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\DeleteItem\DeleteItemUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeletePlayerController" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DeletePlayer\DeletePlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeletePlayerUI" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAFAAAAAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\DeletePlayer\DeletePlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicTestButton" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAABAAAAEAAAAAAAAAEAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\DynamicTestButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExitGame" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\ExitGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtractionPortal" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Items\ExtractionPortal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameExtractedUI" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAASAAAQAAAIAAAABAAAAAAgAAAAAAEACAAEA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\UI\GameExtractedUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAgAACAAAAAAMAAAEEAAQAgAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverUI" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAQAAAIAAAABAAAAAAgAAAAAAEACAAEA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\UI\GameOverUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAverageScoreController" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetAverageScore\GetAverageScoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAverageScoreUI" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAEAAAAAAQIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetAverageScore\GetAverageScoreUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemOwnerCountController" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItemOwnerCount\GetItemOwnerCountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemOwnerCountUI" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAEAAAAAACIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetItemOwnerCount\GetItemOwnerCountUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemsController" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItems\GetItemsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemsPerPlayerController" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItemsPerPlayer\GetItemsPerPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemsPerPlayerUI" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAAEAAAAIAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetItemsPerPlayer\GetItemsPerPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetItemsUI" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAEAAEAAAAIAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetItems\GetItemsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetPlayerController" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayer\GetPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetPlayerInventoryController" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayerInventory\GetPlayerInventoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetPlayerInventoryUI" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAEAAFAAAAIAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayerInventory\GetPlayerInventoryUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetPlayerUI" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAEAAAAAAAIAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayer\GetPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRankingController" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetRanking\GetRankingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRankingUI" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAAEAAAAIAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetRanking\GetRankingUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetTotalPlayersController" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalPlayers\GetTotalPlayersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetTotalPlayersUI" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgEAAEAAAAAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalPlayers\GetTotalPlayersUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetTotalScoreController" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalScore\GetTotalScoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetTotalScoreUI" Collapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAEAAAAAAAIAAAAAAIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalScore\GetTotalScoreUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemData" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItems\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemOwnerCountResultData" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItemOwnerCount\ItemOwnerCountResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemPool" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgAEA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\ItemPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemResultData" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItems\ItemResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemsPerPlayerData" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItemsPerPlayer\ItemsPerPlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemsPerPlayerResultData" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetItemsPerPlayer\ItemsPerPlayerResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginPlayerController" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoginPlayer\LoginPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginPlayerData" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoginPlayer\LoginPlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginPlayerUI" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEADACAAAAAAAAkAAAABAEIAAAAAAAAICAAgAgEA=</HashCode>
+      <FileName>Assets\Scripts\LoginPlayer\LoginPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginResultData" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoginPlayer\LoginResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuManager" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAMAAAGAAAEEAACAAgAAAAAEEACAAAAABQAABAAMA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\MainMenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObstacleBase" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Obstacles\ObstacleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObstacleDespawnZone" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Obstacles\ObstacleDespawnZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAEAAAAACCAAAAAAAAIQAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAAAAAAABAAAAAAAAAAAEAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealth" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAIAAAAACAAAAg=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Player\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInventoryData" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayerInventory\PlayerInventoryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInventoryResultData" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetPlayerInventory\PlayerInventoryResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerResultData" Collapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSessionManager" Collapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMBAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAKAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\LoginPlayer\PlayerSessionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpInventory" Collapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgAAQqAABAAAAAAGAAAAAAAAAAAEQBARIAABAI0A=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Items\PowerUps\PowerUpInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpItem" Collapsed="true">
+    <Position X="26" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Items\PowerUps\PowerUpItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpUI" Collapsed="true">
+    <Position X="27.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAAAAABIAAAAAAACAAAACACAAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Items\PowerUps\PowerUpUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PulseObstacle" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAUAAAAAACIAAAAEAIAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Obstacles\PulseObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readme" Collapsed="true">
+    <Position X="13.75" Y="7.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Readme.Section" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TutorialInfo\Scripts\Readme.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\TutorialInfo\Scripts\Readme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegisterPlayerController" Collapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RegisterPlayer\RegisterPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegisterPlayerUI" Collapsed="true">
+    <Position X="17.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACQAAAAAAEAAEAAAAABEIAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\RegisterPlayer\RegisterPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoveItemFromPlayerController" Collapsed="true">
+    <Position X="19" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RemoveItemFromPlayer\RemoveItemFromPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoveItemFromPlayerUI" Collapsed="true">
+    <Position X="20.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAFAAAAAACIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\RemoveItemFromPlayer\RemoveItemFromPlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneChanger" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\SceneChanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreCounter" Collapsed="true">
+    <Position X="24.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Managers\ScoreCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SearchPlayersController" Collapsed="true">
+    <Position X="26" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SearchPlayers\SearchPlayersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SearchPlayersUI" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAEAAEAAAAIAAIAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\SearchPlayers\SearchPlayersUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawner" Collapsed="true">
+    <Position X="13.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABQAAAAAAAAAAAEEAAAAABAAAAAABAAUAAEAABAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Items\Spawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpinObstacle" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Obstacles\SpinObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TotalPlayersResultData" Collapsed="true">
+    <Position X="15.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalPlayers\TotalPlayersResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TotalScoreResultData" Collapsed="true">
+    <Position X="17.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GetTotalScore\TotalScoreResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateScoreController" Collapsed="true">
+    <Position X="19" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UpdateScore\UpdateScoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateScoreView" Collapsed="true">
+    <Position X="20.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAEAAFAAAAABAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UpdateScore\UpdateScoreUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZigZagObstacle" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAIAAAAAAAAAAAAAACAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\_Gameplay\Obstacles\ZigZagObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
