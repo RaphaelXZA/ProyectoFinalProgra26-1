@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    [SerializeField] private SceneAsset sceneToGo;
+    //[SerializeField] private SceneAsset sceneToGo;
     
-    public void GoToScene()
-    {
-        SceneManager.LoadScene(sceneToGo.name);
-    }
+    //public void GoToScene()
+    //{
+    //    SceneManager.LoadScene(sceneToGo.name);
+    //}
 }
